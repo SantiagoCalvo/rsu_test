@@ -34,7 +34,7 @@ chown -R pythonapp:pythonapp /opt/app
 
 cd opt/app/
 
-[[ -d testshell ]] || git clone https://github.com/SantiagoSoluntech/rsu_test.git
+[[ -d testshell ]] || git clone https://github.com/SantiagoCalvo/rsu_test.git
 
 cd rsu_test/
 git pull origin main
